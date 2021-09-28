@@ -4,6 +4,21 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+
+	import {
+		Color,
+		NearestFilter,
+		Math as ThreeMath,
+		Mesh,
+		MeshBasicMaterial,
+		OrthographicCamera,
+		PlaneGeometry,
+		RGBFormat,
+		Scene,
+		TextureLoader,
+		VideoTexture,
+		WebGLRenderer
+	} from 'three';
 </script>
 
 <svelte:head>
